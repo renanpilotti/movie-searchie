@@ -1,4 +1,4 @@
-const url = `http://www.omdbapi.com?apikey=d2b0e527&`
+const url = `https://www.omdbapi.com?apikey=d2b0e527&`
 
 $('#searchForm').on('submit', (e) => {
     e.preventDefault();
