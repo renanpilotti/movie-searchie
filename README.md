@@ -14,6 +14,6 @@ Neste projeto, desenvolvi uma aplicação de busca de filmes, onde é possível 
 
 - Requisições AJAX com uso da função ".fetch()"
 
-## Live Website:
+## Live Website
 
 https://renanpilotti.github.io/movie-searchie/
