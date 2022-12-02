@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Database</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark py-3">
+            <div class="container">
+                <a href="./index.html" class="navbar-brand">MovieSearchie</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+                <div class="box p-5 mb-4 bg-dark text-light rounded-3 my-5">
+                    <div class="content container-fluid p-5 text-center">
+                        <h1 class="display-5 fw-bold">Search for cool movies</h1>
+                        <p class="fs-5 text-secondary mb-4">Cool movies anytime, anywhere.</p>
+                        <form id="searchForm">
+                            <div class="input-group mb-3">
+                                <input id="searchText" type="text" class="text-white form-control py-2" placeholder="only cool movies here" aria-label="Example text with button addon" aria-describedby="button-addon1" autocomplete="off">
+                                <button class="btn btn-outline-light" type="submit" id="button-addon1">search</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div id="movies" class="row text-light d-flex justify-content-center"></div>
+            </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

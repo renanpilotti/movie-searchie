@@ -1,0 +1,61 @@
+body, nav {
+    background-color: black;
+}
+
+.box {
+    box-shadow: 2px 2px 15px 0px rgba(241, 237, 237, 0.232);
+}
+
+.form-control {
+    transition: .5s;
+    background-color: black;
+}
+
+.form-control:focus{
+	box-shadow: none;
+    border-color: white;
+    background-color: white !important;
+    color: black !important;
+}
+
+.movie-img {
+    max-width: 100%;
+}
+
+.selected-movie {
+    padding: 4% 10%;
+}
+
+.selected-movie ul li {
+    list-style: none;
+    margin: 2% 0;
+}
+
+.movie-card {
+    transition: .3s;
+}
+
+.movie-card:hover {
+    opacity: .5;
+    transform: scale(1.02);
+}
+
+.plot {
+    border: 1px solid rgba(255, 161, 161, 0.888);
+}
+
+.plot p {
+    text-align: justify;
+}
+
+@media (min-width: 1000px) {
+    .movie-card img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+    }
+
+    .content {
+        width: 70%;
+    }
+}
